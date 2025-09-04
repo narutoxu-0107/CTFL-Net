@@ -1,0 +1,7 @@
+torch>=2.5
+torchvision
+pyyaml
+safetensors>=0.2
+numpy
+scikit-learn
+PyWavelets

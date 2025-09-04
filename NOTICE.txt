@@ -1,0 +1,12 @@
+This project contains code from the PyTorch Image Models (timm) library,
+which is licensed under the Apache License, Version 2.0.
+The original copyright notice for the timm library is:
+
+    Copyright 2019 Ross Wightman
+
+==========================================================================
+
+CTFL-Net and associated original code in this repository are also
+licensed under the Apache License, Version 2.0.
+
+Copyright 2024 Hainan University
