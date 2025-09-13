@@ -586,9 +586,10 @@ def validate_norm():
     args.img_size = 224
     args.device = "cuda"
     # args.checkpoint = model_ckpt
-    result_csv = os.path.join("/".join(args.checkpoint.split("/")[:-1]),
-                              f"{args.model}_{args.data_dir.split('/')[-1]}.csv")
-    print(f"result_csv path: {result_csv}")
+    result_csv=None
+    # result_csv = os.path.join("/".join(args.checkpoint.split("/")[:-1]),
+    #                           f"{args.model}_{args.data_dir.split('/')[-1]}.csv")
+    # print(f"result_csv path: {result_csv}")
 
     model_cfgs = []
     model_names = []

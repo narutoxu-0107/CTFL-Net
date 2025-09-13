@@ -28,11 +28,16 @@ This project uses our self-constructed **Rice LAI UAV-RGB (RLU) dataset**, which
   * The dataset comprises a total of **9,500 images**.
   * Original images with a resolution of 5472×3648 were cropped into 1024×1024 patches for model training and testing.
 
-#### Download Link
+#### Download Links
 
-You can download the RLU dataset from the following link:
+You can download the datasets and pre-trained model weights from the following links:
 
-[**RLU Dataset**](https://pan.baidu.com/s/1Sv0OdIAxwJnN8ztkfwhJlw?pwd=wq1r )
+**Datasets:**
+- [**Original RGB Data**](https://pan.baidu.com/s/1Original-RGB-Data?pwd=orig ) - Raw UAV-RGB images (5472×3648 resolution)
+- [**RLU Dataset (Processed)**](https://pan.baidu.com/s/1Sv0OdIAxwJnN8ztkfwhJlw?pwd=wq1r ) - Processed dataset ready for model training (1024×1024 patches)
+
+**Pre-trained Model Weights:**
+- [**CTFL-Net Trained Weights**](https://pan.baidu.com/s/1CTFL-Net-trained-weights?pwd=ctfl ) - Pre-trained CTFL-Net model weights for rice LAI estimation
 
 After downloading, please organize the files according to the directory structure described below.
 
@@ -60,7 +65,7 @@ CTFL-Net/
 Please organize your training and validation datasets according to the following structure:
 
 ```
-/path/to/your/dataset/URL
+/path/to/your/dataset/RLU
 ├── train/
 │   ├── class1/
 │   │   ├── image1.jpg
