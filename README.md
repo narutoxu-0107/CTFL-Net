@@ -33,11 +33,11 @@ This project uses our self-constructed **Rice LAI UAV-RGB (RLU) dataset**, which
 You can download the datasets and pre-trained model weights from the following links:
 
 **Datasets:**
-- [**Original RGB Data**](https://pan.baidu.com/s/1Original-RGB-Data?pwd=orig ) - Raw UAV-RGB images (5472×3648 resolution)
-- [**RLU Dataset (Processed)**](https://pan.baidu.com/s/1Sv0OdIAxwJnN8ztkfwhJlw?pwd=wq1r ) - Processed dataset ready for model training (1024×1024 patches)
+- [**Original RGB Data**](https://pan.baidu.com/s/1H3JTJPKfWTzMC-ukeyAtMw?pwd=sgqf ) - Raw UAV-RGB images (5472×3648 resolution)
+- [**RLU Dataset (Processed)**](https://pan.baidu.com/s/179GHv49sMfLGgccjHPy82w?pwd=vem3 ) - Processed dataset ready for model training (1024×1024 patches)
 
 **Pre-trained Model Weights:**
-- [**CTFL-Net Trained Weights**](https://pan.baidu.com/s/1CTFL-Net-trained-weights?pwd=ctfl ) - Pre-trained CTFL-Net model weights for rice LAI estimation
+- [**CTFL-Net Trained Weights**](https://pan.baidu.com/s/19-vjj8ZrkG9e45ECLTbsgQ?pwd=vh6x ) - Pre-trained CTFL-Net model weights for rice LAI estimation
 
 After downloading, please organize the files according to the directory structure described below.
 
@@ -55,8 +55,8 @@ CTFL-Net/
 └── ...
 ```
 
-* **ConvNeXt-Tiny**: [Download Link](https://dl.fbaipublicfiles.com/convnext/convnext_tiny_1k_224_ema.pth) (Please rename the file as specified in the code after downloading)
-* **DaViT-Tiny**: [Download Link](https://github.com/microsoft/DaViT/releases/download/v1.0.0/davit_tiny.pth) (Please rename the file as specified in the code after downloading)
+* **ConvNeXt-Tiny**: [Download Link](https://pan.baidu.com/s/10XSfpbS7qd1Xegfh9t9wuw?pwd=p6ft) (Please rename the file as specified in the code after downloading)
+* **DaViT-Tiny**: [Download Link](https://pan.baidu.com/s/1psbj2eAERL0wD-CHO9OT-w?pwd=tepe) (Please rename the file as specified in the code after downloading)
 
 *Note: Please adjust filenames based on `timm/models/ctflnet.py`.*
 
